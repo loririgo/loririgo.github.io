@@ -1,0 +1,229 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6FCCDC
+}
+
+.logo {
+    width: 330px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #f58237;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #f58237;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.donate-button {
+    width: 120px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #f58237;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase
+}
+
+ .donate-button span{
+    background: #f58237;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.donate-button:hover span {
+    width: 100%;
+}
+
+.donate-button:hover {
+    border: none;
+    background: #f58237;
+}
+
+    #domov{
+        width: 100%;
+        display: flex;
+        position: sticky;
+    }
+    #Slider {
+        width: 50%;
+    }
+    
+    #text1{
+        width: 50%;
+        text-align: center;
+    }
+
+    #carouseldiv1 {
+      max-width: 70%;
+      margin: auto;
+    }
+    
+.ourclinictext {
+  margin: 50px 110px;
+}
+
+
+h3 { font-family: sans-serif; color: orangered; font-weight: bold;}
+
+
+h2 {text-align: center; font-family: sans-serif; color: #F58237; font-weight: bold;}
+
+.text-box1 {text-align: justify; font-family: sans-serif;color: #434C4B;}
+
+.text-box2 {text-align: justify; font-family: sans-serif; color: #434C4B;}
+
+.text-box3 {text-align: justify; font-family: sans-serif; color: #434C4B;}
+
+.text-box4 {text-align: justify;font-family: sans-serif; color: #434C4B}
+
+h1{text-align: center; color: #F58237; font-weight: bold; font-family: sans-serif;}
+
+.card-title {color: #599EA0; font-family: sans-serif;}
+
+
+.eventstext {
+  text-align: justify;
+}
+
+.footernav {
+    background-color: #6FCCDC;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;  
+  }
+
+  .footernav a{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+   
+  a:hover {
+    color: #F58237;
+      
+  }
+   .footernav a{
+    font-size: 20px;
+     padding: 25px;
+  }
+  
+  footer {
+    background-color: #6FCCDC; font-family: sans-serif;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icons a{
+    text-decoration: none;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .icons a i{
+    font-size: 20px;
+    color: #F58237;
+    opacity: 0.9;  
+  }
+  
+  .icons a:hover{
+    background-color: #F58237;
+    transition: 0.5s;
+  }
+  
+  .icons a:hover i{
+    color: white;
+    transition: 0.5s
+  }
+  
+  .footerBottom{
+    background-color: #6FCCDC;
+    padding:10px;
+    text-align: center;
+  }
+  
+  .footerBottom p{
+    color: #434C4B; 
+  }
+  
+  .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  
+  
+  
+  
+  
+  
